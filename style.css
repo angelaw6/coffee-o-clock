@@ -1,5 +1,25 @@
-.test{
-    fill: beige;
-    height: 600px;
+body{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; 
+}
+.app-container {
+    background-color: pink;
+    aspect-ratio: 16/9;
     width: 900px;
+    border: 15px ;
+    padding: 50px;
+    margin: 20px;
+    align-content: center;
+   
+}
+
+.menu1 {
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    x: 600px;
+    y: 200px;
 }
