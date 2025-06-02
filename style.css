@@ -6,14 +6,15 @@ body{
     margin: 0; 
 }
 .app-container {
-    background-color: pink;
-    aspect-ratio: 16/9;
+  
     width: 900px;
-    border: 15px ;
-    padding: 50px;
-    margin: 20px;
-    align-content: center;
+    height: 600px;
+    border-radius: 19px;
+    border: 1px solid #000;
+    background: #FCF3E8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
    
+
 }
 
 .menu1 {
