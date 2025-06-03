@@ -17,6 +17,16 @@ body{
 
 }
 
+.cafe-logo {
+    width: 222px;
+    height: 317px;
+    flex-shrink: 0;
+    aspect-ratio: 222/317;  
+    background: url(</img/cafe_logo.png>) lightgray 50% / cover no-repeat;
+
+
+}
+
 .menu1 {
     background-color: white;
     width: 180px;
