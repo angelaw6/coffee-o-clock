@@ -22,7 +22,7 @@ body{
     height: 317px;
     flex-shrink: 0;
     aspect-ratio: 222/317;  
-    background-image: url("/img/cafe_logo.png");
+    background-image: url("assets/img/cafe_logo.png");
     background-repeat: no-repeat;
 
 
