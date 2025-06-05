@@ -67,54 +67,49 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* coffee class !*/
+.coffee {
+  position: absolute;
+  width: 285px;
+  height: 200px;
+  display: block;
+  pointer-events: none; /* Prevent clicks on the invisible container */
+}
+
+.coffee img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: auto; /* Only clickable on visible PNG */
+  transition: transform 0.2s ease;
+}
+
+.coffee img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 .cafe-lait {
     position:absolute;
     left: 60px;
     top: 85px;
-    width: 285px;
-    height: 200px;
-    flex-shrink: 0;
-    background-image: url("img/cafe_au_lait.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .mocha {
     position:absolute;
     left: 290px;
     top: 85px;
-    width: 285px;
-    height: 200px;
-    flex-shrink: 0;
-    background-image: url("img/ice_mocha.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .rose-latte {
     position:absolute;
     left: 60px;
     top: 280px;
-    width: 285px;
-    height: 200px;
-    flex-shrink: 0;
-    background-image: url("img/rose_latte.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .affogato {
     position:absolute;
     left: 290px;
     top: 280px;
-    width: 285px;
-    height: 200px;
-    flex-shrink: 0;
-    background-image: url("img/affogatto.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
