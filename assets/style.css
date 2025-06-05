@@ -44,48 +44,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.rose-latte {
-    position:absolute;
-    left: 315px;
-    top: 300px;
-    width: 285px;
-    height: 200px;
-    flex-shrink: 0;
-    background-image: url("img/rose_latte.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.mocha {
-    position:absolute;
-    left: 545px;
-    top: 115px;
-    width: 285px;
-    height: 200px;
-    flex-shrink: 0;
-    background-image: url("img/ice_mocha.png");
-    background-repeat: no-repeat;
-}
-
-.affogato {
-    position:absolute;
-    left: 545px;
-    top: 300px;
-    width: 285px;
-    height: 200px;
-    flex-shrink: 0;
-    background-image: url("img/affogatto.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .cafe-lait {
     position:absolute;
-    left: 315px;
-    top: 110px;
+    left: 60px;
+    top: 85px;
     width: 285px;
     height: 200px;
     flex-shrink: 0;
@@ -95,3 +57,41 @@ body{
     background-repeat: no-repeat;
 }
 
+.mocha {
+    position:absolute;
+    left: 290px;
+    top: 85px;
+    width: 285px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url("img/ice_mocha.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rose-latte {
+    position:absolute;
+    left: 60px;
+    top: 280px;
+    width: 285px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url("img/rose_latte.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.affogato {
+    position:absolute;
+    left: 290px;
+    top: 280px;
+    width: 285px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url("img/affogatto.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
