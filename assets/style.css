@@ -24,7 +24,6 @@ body{
     width: 222px;
     height: 317px;
     flex-shrink: 0; 
-    aspect-ratio: 222/317;
     background-image: url("img/cafe_logo.png");
     background-size: contain;
     background-position: center;
@@ -33,10 +32,60 @@ body{
 
 }
 
-.menu1 {
-    background-color: white;
-    width: 180px;
-    height: 180px;
-    x: 600px;
-    y: 200px;
+.menu_scallop_bgd {
+    position:absolute;
+    left: 260px;
+    top: 25px;
+    width: 620px;
+    height: 556px;
+    flex-shrink: 0;
+    background-image: url("img/menu_color.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.rose-latte {
+    position:absolute;
+    left: 315px;
+    top: 300px;
+    width: 285px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url("img/rose_latte.png");
+    background-repeat: no-repeat;
+}
+
+.mocha {
+    position:absolute;
+    left: 545px;
+    top: 115px;
+    width: 285px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url("img/ice_mocha.png");
+    background-repeat: no-repeat;
+}
+
+.affogato {
+    position:absolute;
+    left: 545px;
+    top: 300px;
+    width: 285px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url("img/affogatto.png");
+    background-repeat: no-repeat;
+}
+
+.cafe-lait {
+    position:absolute;
+    left: 315px;
+    top: 110px;
+    width: 285px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url("img/cafe_au_lait.png");
+    background-repeat: no-repeat;
+}
+
