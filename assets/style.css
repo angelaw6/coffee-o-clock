@@ -14,7 +14,6 @@ body{
     background: #FCF3E8;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
    
-
 }
 
 .cafe-logo {
@@ -28,12 +27,36 @@ body{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
-
+}
+.menu-logo {
+    position:absolute;
+    left: 25px;
+    top: 35px;
+    width: 262px;
+    height: 161px;
+    flex-shrink: 0; 
+    background-image: url("img/menu_logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.menu-scallop-bgd {
+.coffee-beans {
     position:absolute;
+    left: 50px;
+    top: 450px;
+    width: 210px;
+    height: 116px;
+    flex-shrink: 0; 
+    background-image: url("img/coffee_beans.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.menu-scallop-bgd {
+    position:relative;
     left: 260px;
     top: 25px;
     width: 620px;
