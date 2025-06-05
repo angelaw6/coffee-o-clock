@@ -32,7 +32,7 @@ body{
 
 }
 
-.menu_scallop_bgd {
+.menu-scallop-bgd {
     position:absolute;
     left: 260px;
     top: 25px;
@@ -53,6 +53,8 @@ body{
     height: 200px;
     flex-shrink: 0;
     background-image: url("img/rose_latte.png");
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -75,6 +77,8 @@ body{
     height: 200px;
     flex-shrink: 0;
     background-image: url("img/affogatto.png");
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -86,6 +90,8 @@ body{
     height: 200px;
     flex-shrink: 0;
     background-image: url("img/cafe_au_lait.png");
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
