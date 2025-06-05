@@ -19,8 +19,8 @@ body{
 
 .cafe-logo {
     position:absolute;
-    left: 45;
-    top: 152;
+    left: 45px;
+    top: 152px;
     width: 222px;
     height: 317px;
     flex-shrink: 0; 
