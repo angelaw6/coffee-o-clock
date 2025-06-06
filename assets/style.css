@@ -113,3 +113,20 @@ body{
     left: 290px;
     top: 280px;
 }
+
+.label{
+    color: #000;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    font-family: Italianno;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link1{
+    left: 200px;
+    top: 110px;
+}
+
