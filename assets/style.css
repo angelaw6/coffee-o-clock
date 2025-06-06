@@ -126,6 +126,7 @@ body{
 }
 
 .link1{
+    position:absolute;
     left: 200px;
     top: 110px;
 }
