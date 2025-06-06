@@ -91,30 +91,27 @@ body{
 }
 
 .cafe-lait {
-    position:absolute;
     left: 60px;
     top: 85px;
 }
 
 .mocha {
-    position:absolute;
     left: 290px;
     top: 85px;
 }
 
 .rose-latte {
-    position:absolute;
     left: 60px;
     top: 280px;
 }
 
 .affogato {
-    position:absolute;
     left: 290px;
     top: 280px;
 }
 
 .label{
+    position:absolute;
     color: #000;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #000;
@@ -125,8 +122,7 @@ body{
     line-height: normal;
 }
 
-.link1{
-    position:absolute;
+.link1{ 
     left: 200px;
     top: 110px;
 }
